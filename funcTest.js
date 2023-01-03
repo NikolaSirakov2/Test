@@ -12,6 +12,6 @@ function sum(a,b) {
     return a+b;
 }
 
-let arr
+let arr = [2,4]
 
-console.log(sum(5,3));
+console.log(sum(arr[0],arr[1]));
