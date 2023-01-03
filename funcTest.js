@@ -1,5 +1,9 @@
 function greet(fullName){
-    console.log("Hi, " + fullName);
+    return console.log("Hi, " + fullName);
 }
 
-greet("Nik")
+let human = "Sla"
+
+let result = greet(human);
+
+console.log(result);
