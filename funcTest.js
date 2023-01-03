@@ -1,9 +1,17 @@
-function greet(fullName){
-    return ("Hi, " + fullName);
+// function greet(fullName){
+//     return ("Hi, " + fullName);
+// }
+
+// let human = "Sla"
+
+// let result = greet(human);
+
+// console.log(result);
+
+function sum(a,b) {
+    return a+b;
 }
 
-let human = "Sla"
+let arr
 
-let result = greet(human);
-
-console.log(result);
+console.log(sum(5,3));
